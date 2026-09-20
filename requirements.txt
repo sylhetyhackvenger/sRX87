@@ -1,0 +1,16 @@
+# ============================================================
+# sRX87 - SSL/TLS Reconnaissance & Exploitation Framework
+# Author: SYLHETYHACKVENGER (THE-ERROR808)
+# ============================================================
+
+# --- Core Cryptography (RSA, AES, ECC, DSA, hashing, HMAC) ---
+pycryptodome>=3.19.0
+
+# --- HTTP client (metadata probes, k8s API, SSRF payloads) ---
+requests>=2.31.0
+
+# --- DNS resolution (A, AAAA, CNAME, HTTPS/SVCB, DNSKEY, AXFR) ---
+dnspython>=2.4.2
+
+# --- Cross-platform ANSI color support (Windows terminals) ---
+colorama>=0.4.6
