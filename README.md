@@ -1,5 +1,34 @@
 # sRX87 — SSL/TLS RECONNAISSANCE AND EXPLOITATION FRAMEWORK 
 
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/sRX87-ULTIMATE-blueviolet.svg?style=for-the-badge&logo=github" alt="sRX87">
+<img src="https://img.shields.io/badge/VERSION-1.0.0-blue.svg?style=for-the-badge" alt="Version">
+<img src="https://img.shields.io/badge/STATUS-STABLE-brightgreen.svg?style=for-the-badge" alt="Status">
+<img src="https://img.shields.io/badge/LICENSE-MIT-orange.svg?style=for-the-badge" alt="License">
+
+<br>
+
+<img src="https://img.shields.io/badge/PYTHON-3.8%2B-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/LINUX-SUPPORTED-FCC624.svg?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
+<img src="https://img.shields.io/badge/WINDOWS-SUPPORTED-0078D6.svg?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
+<img src="https://img.shields.io/badge/MACOS-SUPPORTED-000000.svg?style=for-the-badge&logo=apple&logoColor=white" alt="macOS">
+
+<br>
+
+<img src="https://img.shields.io/badge/ROOT-OPTIONAL-success.svg?style=for-the-badge" alt="Root">
+<img src="https://img.shields.io/badge/NON--ROOT-SUPPORTED-success.svg?style=for-the-badge" alt="Non-Root">
+<img src="https://img.shields.io/badge/CLI-TOOL-6E40C9.svg?style=for-the-badge" alt="CLI">
+<img src="https://img.shields.io/badge/SECURITY-RESEARCH-red.svg?style=for-the-badge" alt="Security Research">
+
+<br><br>
+
+<strong>sRX87</strong><br>
+<sub>Advanced Security Research &amp; Testing Framework</sub>
+
+</div>
+
 sRX87 is a single-file, dependency-resilient SSL/TLS reconnaissance and exploitation framework authored by SYLHETYHACKVENGER (THE-ERROR808). It implements a 12-stage sequential kill-chain covering transport recon, X.509 parsing, protocol/cipher enumeration, cryptographic oracles, HTTP-layer attacks, TLS bypass, HTTP bypass, auth/ACL attacks, SSRF/cache/rate-limit abuse, cloud metadata harvesting, CVE correlation, and 20-format reporting. Unlike typical "scanner wrappers," sRX87 speaks raw TLS at the byte level — it hand-crafts ClientHellos, parses ServerHello/ServerKeyExchange/Certificate messages with its own DER reader, and executes real oracles (ROBOT, Bleichenbacher, Heartbleed, Lucky13 with Welch t-test, Fermat/batch-GCD factorization, Wiener). It runs 3,000+ KB-evidence-backed probes, writes STIX 2.1, MISP, SARIF, Nessus, Burp, ZAP, and DefectDojo exports, and renders a live alt-screen TUI with scrollback. This is a professional-grade offensive/defensive instrument — not a toy.
 
 ---
